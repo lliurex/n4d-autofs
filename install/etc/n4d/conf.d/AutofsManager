@@ -1,0 +1,7 @@
+[SETUP]
+type=python
+path=AutofsManager.py
+class=AutofsManager
+[METHODS]
+create_master_file=sudo,admins
+create_mount_script=sudo,admins
