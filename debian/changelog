@@ -1,3 +1,9 @@
+n4d-autofs (0.2) bionic; urgency=high
+
+  * Adding return values to calls.
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Mon, 18 Feb 2019 14:14:32 +0100
+
 n4d-autofs (0.1) bionic; urgency=high
 
   * Initial release.
