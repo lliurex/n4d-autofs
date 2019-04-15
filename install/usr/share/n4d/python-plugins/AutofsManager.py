@@ -25,7 +25,7 @@ class AutofsManager:
 	
 	def clean_environment(self):
 		
-		paths=[self.auto_master_dir+"net-server.autofs","/etc/auto.lliurex"]
+		paths=[self.auto_master_dir+"net_server-sync.autofs","/etc/auto.lliurex"]
 		
 		for path in paths:
 			if os.path.exists(path):
