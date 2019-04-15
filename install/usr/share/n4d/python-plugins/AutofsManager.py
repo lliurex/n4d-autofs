@@ -23,6 +23,21 @@ class AutofsManager:
 	#def startup
 	
 	
+	def clean_environment(self):
+		
+		paths=[self.auto_master+"net-server.autofs","/etc/auto.lliurex"]
+		
+		for path in paths:
+			if os.path.exists(path):
+				os.remove(path)
+
+		os.system("systemctl restart autofs")
+		
+		return True
+		
+	#def clean_environment
+	
+	
 	def create_master_file(self,mount_dest,mount_script,options=None):
 
 		try:
