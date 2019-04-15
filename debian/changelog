@@ -1,4 +1,4 @@
-n4d-autofs (0.3.1) bionic; urgency=high
+n4d-autofs (0.3.2) bionic; urgency=high
 
   * Adding clean_environment function)
 
