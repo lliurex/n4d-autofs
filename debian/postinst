@@ -22,7 +22,7 @@ case "$1" in
     configure)
 
 
-	n4d-modules enable-plugin /etc/n4d/conf.d/AutofsManager || true
+	n4d-modules enable-plugin /etc/n4d/conf.d/AutofsManager.json || true
 
 	;;
 
