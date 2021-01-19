@@ -1,0 +1,27 @@
+{
+    "SETUP": {
+        "type": "python",
+        "path": "AutofsManager.py",
+        "class": "AutofsManager"
+    },
+    "METHODS": {
+        "clean_environment": {
+            "allowed_groups": [
+                "sudo",
+                "admins"
+            ]
+        },
+        "create_master_file": {
+            "allowed_groups": [
+                "sudo",
+                "admins"
+            ]
+        },
+        "create_mount_script": {
+            "allowed_groups": [
+                "sudo",
+                "admins"
+            ]
+        }
+    }
+}
