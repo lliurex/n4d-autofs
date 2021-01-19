@@ -1,0 +1,17 @@
+n4d-autofs (0.3.2) bionic; urgency=high
+
+  * Adding clean_environment function)
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Mon, 15 Apr 2019 12:00:35 +0200
+
+n4d-autofs (0.2) bionic; urgency=high
+
+  * Adding return values to calls.
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Mon, 18 Feb 2019 14:14:32 +0100
+
+n4d-autofs (0.1) bionic; urgency=high
+
+  * Initial release.
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Mon, 18 Feb 2019 10:21:01 +0100
