@@ -63,13 +63,13 @@ class AutofsManager:
 			os.rename(tmpfilepath,dest_path)
 			
 			#Old n4d: return {"status": True, "msg": "autofs master.d file created"}
-			return n4d.responses.build_successful_call_response("autofs master.d file created")
+			return n4d.responses.build_successful_call_response('',"autofs master.d file created")
 			
 			
 		except Exception as e:
 			
 			#Old n4d: return {"status": False, "msg": str(e)}
-			return n4d.responses.build_failed_call_response(str(e))
+			return n4d.responses.build_failed_call_response('',str(e))
 
 		
 		
@@ -94,13 +94,13 @@ class AutofsManager:
 			os.rename(tmpfilepath,mount_script_fname)
 		
 			#Old n4d: return {"status": True, "msg": "autofs mount script created"}
-			return n4d.responses.build_successful_call_response("autofs mount script created")
+			return n4d.responses.build_successful_call_response('',"autofs mount script created")
 		
 			
 		except Exception as e:
 			
 			#Old n4d: return {"status": False, "msg": str(e)}
-			return n4d.responses.build_failed_call_response(str(e))
+			return n4d.responses.build_failed_call_response('',str(e))
 	
 	#def create_mount_script
 	
