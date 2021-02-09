@@ -1,3 +1,9 @@
+n4d-autofs (0.4.2) focal; urgency=medium
+
+  * Initial release for focal
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 09 Feb 2021 17:53:03 +0100
+
 n4d-autofs (0.3.2) bionic; urgency=high
 
   * Adding clean_environment function)
